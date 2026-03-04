@@ -1,0 +1,24 @@
+{
+  "name": "tholid",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vinxi dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.30.3",
+  "dependencies": {
+    "solid-js": "^1.9.11",
+    "three": "^0.183.2",
+    "vinxi": "^0.5.11",
+    "vite-plugin-solid": "^2.11.10"
+  },
+  "devDependencies": {
+    "@types/three": "^0.183.1"
+  }
+}
