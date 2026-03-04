@@ -26,6 +26,7 @@
 </Scene>
 ```
 ### Video
+[Video](https://github.com/user-attachments/assets/8707593c-b42d-40e8-b4cb-06ad6c50036a)
 
 
 Full example: [src/index.tsx](src/index.tsx)
