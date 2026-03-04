@@ -7,21 +7,21 @@
 ```tsx
 <Scene>
     <Group rotation={rotation()} position={[0, 0, -100]}>
-    <BoxMesh size={100} position={[-100, 0, -100]} material-color="blue" />
-
-    <Show when={toggle()}>
+        <BoxMesh size={100} position={[-100, 0, -100]} material-color="blue" />
+    
+        <Show when={toggle()}>
+            <BoxMesh
+                size={[100, 50, 25]}
+                position={[100, 0, -100]}
+                material-color="green"
+            />
+        </Show>
         <BoxMesh
-        size={[100, 50, 25]}
-        position={[100, 0, -100]}
-        material-color="green"
+            size={{ width: 100, height: 75, depth: 50 }}
+            position={[0, 100, -100]}
+            rotation={rotation()}
+            material-color={color()}
         />
-    </Show>
-    <BoxMesh
-        size={{ width: 100, height: 75, depth: 50 }}
-        position={[0, 100, -100]}
-        rotation={rotation()}
-        material-color={color()}
-    />
     </Group>
 </Scene>
 ```
